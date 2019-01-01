@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 
 import Header from './component/header/Header'
-const Menu = () => <h2>Menu</h2>
 const Landing = () => <h2>Homepage</h2>
 const Account = () => <h2>Register or Sign in</h2>
 const Gallery = () => <h2>Latest Updates</h2>
@@ -16,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Menu />
+        <div style={{marginTop: '200px'}}></div>
         <Route exact path="/" component={Landing}/>
         <Route path="/signin" component={Account}/>
         <Route path="/gallery" component={Gallery}/>

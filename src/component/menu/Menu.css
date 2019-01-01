@@ -1,0 +1,23 @@
+.search {
+    position: relative;
+}
+.search .searchIcon {
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+  }
+
+.search .inputRoot {
+    color: inherit;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px
+  }
+
+  .menuLink{
+      border-left: 3px solid black;
+      padding: 15px;
+      width: 100%
+  }
